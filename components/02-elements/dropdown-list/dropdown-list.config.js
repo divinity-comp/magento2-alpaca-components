@@ -1,6 +1,7 @@
 module.exports = {
   status: 'wip',
   context: {
+    script: true,
     dropdowns: [
       {
         itemTag: 'a',
@@ -69,6 +70,12 @@ module.exports = {
       name: 'dark',
       context: {
         class: 'dropdown-list--dark'
+      }
+    },
+    {
+      name: 'secondary',
+      context: {
+        class: 'dropdown-list--secondary'
       }
     },
     {
